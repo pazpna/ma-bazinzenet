@@ -1,0 +1,731 @@
+﻿
+/*גופן*/
+@font-face {
+    font-family: 'COMIXNO2CLM_MEDIUM-WEBFONT';
+    src: url('COMIXNO2CLM_MEDIUM-WEBFONT.TTF') format('truetype');
+}
+
+    /*כפתור נגישות*/
+.skip-to-content-link {
+    background: #E1EBE1;
+    height: 30px;
+    left: 50%;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+    margin-top: -5px;
+}
+
+    /*כפתור נגישות*/
+    .skip-to-content-link:focus {
+        transform: translateY(0%);
+    }
+
+    /*האתר גוף*/
+ body {
+    direction: rtl;
+    text-align: right;
+    font-family: COMIXNO2CLM_MEDIUM-WEBFONT, Arial;
+    width:1280px; margin:auto;
+}
+
+@media (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.25) {
+    body {
+        zoom: 0.8;
+    }
+
+    :root {
+        --vh: 125vh;
+        --vw: 125vw;
+    }
+}
+
+/*div העוטף את כל התוכן*/
+#SiteContainer {width:1280px; margin:auto;}
+
+/*ראש העמוד*/
+header {
+    overflow: auto;
+    max-width: 1280px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: -200px;
+    margin-top: -10px;
+}
+
+/*תמונת לוגו*/
+.logoHeader img {
+    max-width: 150px;
+}
+
+/*דיב של הלוגו*/
+#header-left {
+    float: right;
+}
+
+
+/*/תפריט/*/
+#header2 .menu-nav {
+    width: 97.5%;
+    margin-top: 1.5%;
+    font-size: 25px;
+    height: 40px;
+}
+
+/*/תפריט/*/
+#nav1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 1;
+}
+
+/*/תפריט/*/
+#nav1 li {
+    width: 10px;
+    z-index: 1;
+}
+
+  /*/תפריט/*/
+    #nav1 li a {
+        display: inline-block;
+        float: right;
+        width: 10px;
+        z-index: 1;
+    }
+
+/*/ תפריט - עיצוב רשימה/*/
+#nav1 ul li a {
+    display: block;
+    background-color: #E1EBE1;
+    color: #5B5354;
+    text-decoration: none;
+    font-size: 29px;
+    text-align: right;
+    width: 100px;
+    padding-top: 8px;
+    padding-bottom: 1px;
+    background-size: auto;
+    z-index: 1;
+    margin-right: 60px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #E1EBE1;
+    border-bottom: 4px solid #F7F6F4;
+    font-weight: 600;
+    padding-right:10px;
+}
+
+  /*/תפריט/*/
+ #nav1 ul li a ul li a {font-size:20px;}
+
+/*/באינטרקצית עכבר-עיצוב תת תפריט/*/
+#nav1 ul li a:hover {
+    background-color: #BDC7B9;
+}
+
+/*נגישות בתפריט*/
+#nav1 ul li a:focus {
+    background-color: #BDC7B9;
+}
+
+/*תפריט*/
+#nav1 ul li a:active {
+    background-color: #A8B4A2;
+}
+
+/*/תזוזות אינטרקצית עכבר- תפריט/*/
+#nav1 ul li ul {
+    display: none;
+    position: absolute;
+    z-index: 5;
+}
+
+/*תפריט במעבר עכבר*/
+#nav1 ul li:hover ul {
+    display: inline-block;
+    width: 10px;
+    margin-right: -10px;
+    margin-top: 32pt;
+    z-index: 5;
+}
+
+#nav1 ul li:focus ul {
+    display: inline-block;
+    width: 10px;
+    margin-right: -10px;
+    margin-top: 32pt;
+    z-index: 5;
+}
+
+/*חשוב להוסיף!*/
+#nav1 ul li:focus ul {
+    display: inline-block;
+    width: 10px;
+    margin-right: -10px;
+    margin-top: 32pt;
+    z-index: 5;
+}
+
+/*תפריט*/
+.ulli {
+    margin-left: 10px;
+}
+
+ /* - תפריט - מתייחס לכל השורה*/
+#header2 ul.menu {
+    list-style: none;
+    padding: 0;
+}
+
+
+/*מתייחס לכל הקווים LI*/
+#header2 ul.menu li { 
+    display: inline-block;
+    margin-left: 70px;
+    position: relative;
+    color: #fff;
+    pointer-events: fill;
+    vertical-align: top;
+    color:white;
+    padding-left:75px;
+
+}
+
+/*צבע התפריט*/
+.menu-nav {  
+    background-color:#E1EBE1;
+    padding: 12px;
+}
+
+/*כותרת ראשית*/
+h1 { 
+    margin-right: 55px;
+    color: #5B5354;
+    font-size:40px;
+}
+
+
+/*עיצוב לכל section*/ 
+section { margin-bottom:60px; }
+
+/*עיצוב לכל תמונה*/
+img {
+    max-width: 100%;
+}
+
+/*תמונה ראשית*/
+.image-section-data {
+    background-image: url('/photos/center-homepage2.jpg');
+    padding-bottom: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 140px;
+}
+
+/*דיב עוטף תוכן - רקע שמנת*/
+#SiteGridContainer {
+    background: #F7F6F4;
+    margin-bottom: 100px;
+}
+
+/*קו מתחת לכותרות*/
+.line {
+    height: 80px;
+    width: 700px;
+    margin-bottom: -185px;
+    margin-right: 290px;
+    background-size: cover;
+}
+
+/*תמונה מדף*/
+.jar-6-types {
+    background-image: url('/photos/shelf3.png');
+    height: 430px;
+    background-size: cover;
+}
+
+/*צנצנות על המדף*/
+.wrapper6jars {
+    margin: auto;
+    padding-top: 50px;
+    padding-right: 80px;
+    width: 1000px;
+}
+
+/*מעבר עכבר על הצנצנוות במדף*/
+.img-replace .image-show {
+    display: block;
+    width: 150px;
+    height: 200px
+}
+
+.img-replace .image-hover {
+    display: none;
+}
+
+.img-replace .image-focus {
+    display: none;
+}
+
+.img-replace .image-hover2 {
+    display: none;
+}
+.img-replace .image-focus2 {
+    display: none;
+}
+
+.img-replace:hover .image-show {
+    display: none;
+}
+
+.img-replace:focus .image-show {
+    display: none;
+}
+
+.img-replace:hover .image-hover {
+    display: block;
+    width: 150px;
+    height: 200px
+}
+
+.img-replace:hover .image-hover2 {
+    display: block;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.img-replace:hover .image-focus {
+    display: block;
+    width: 150px;
+    height: 200px
+}
+
+.img-replace:hover .image-focus2 {
+    display: block;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*איזה צנצנת יש לכם בבית - גריד*/
+.wrapper6jars {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+}
+
+
+
+/*בואו ליצור בעצמכם - מעבר עכבר*/
+.grid-box-image .image-show {
+    display: block;
+}
+/*מעבר עכבר של בואו ליצור בעצמכם*/
+.grid-box-image .image-hover {
+    display: none;
+}
+
+/*מעבר עכבר של בואו ליצור בעצמכם*/
+.grid-box-image .image-focus {
+    display: none;
+}
+
+/*מעבר עכבר של בואו ליצור בעצמכם*/
+
+.grid-box-image:hover .image-show {
+    display: none;
+}
+
+.grid-box-image:hover .image-hover {
+    display: block;
+}
+
+/*מעבר עכבר של בואו ליצור בעצמכם*/
+
+.grid-box-image:focus .image-show {
+    display: none;
+}
+
+.grid-box-image:focus .image-focus {
+    display: block;
+}
+
+
+/*גריד בואו ליצור בעצמכם*/
+.wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+/*כפתור לחצו להכנה*/
+.button {
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    background-color: #E5DFDE;
+    color: #807979;
+    margin-right: 80px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/*קצת עלינו-תמונה*/
+.aboutus {
+    background-image: url('/photos/glass-2593900_1280.jpg');
+    height: 700px;
+}
+
+/*קצת עלינו*/
+.about {
+    margin-right: 400px;
+}
+
+/*קצת עלינו*/
+.grid-row-text {
+    margin-top: 50px;
+    padding: 50px;
+    margin-right: 80px;
+    text-align: center;
+}
+
+
+/*גלרייה*/
+#gallery-randomizer .grid-item {
+    width: 25%;
+    padding: 5px;
+    overflow: hidden;
+    float: right;
+}
+/*גלרייה*/
+#gallery-randomizer .grid-item-2 {
+    padding: 5px;
+    width: 600px;
+    overflow: hidden;
+    float:right;
+}
+/*גלרייה*/
+#gallery-randomizer .gallery-randomizer-item {
+    overflow: hidden;
+    position: relative;
+    height:300px;
+    cursor: pointer;
+}
+    /*גלרייה*/
+#gallery-randomizer .gallery-randomizer-item > div {
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*גלרית אינסטגרם*/
+.row > .column {
+    padding: 0 8px;
+}
+
+/*גלרית אינסטגרם*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* גלרית אינסטגרםThe Modal (background)*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/*/* -  גלריית אינסטגרםModal Content*/
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+/* גלריית אינסטגרםThe Close Button*/
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+/*טופס*/
+.form-container-wide    { border:1px solid black; text-align:center; padding:25px; }
+
+/*טופס*/
+.input-wrapper {
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+
+.link {
+    color: #5B5354;
+    font-size: 22px;
+}
+
+
+
+ /*Create four equal columns that floats next to eachother*/ 
+.column {
+    float: left;
+    width: 25%;
+}
+
+.pull-right { float:right; }
+.pull-left { float:left; }
+
+
+
+/*גלריית אינסטגרם*/
+    .close:hover,
+    .close:focus {
+        color: #999;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+ /*Hide the slides by default*/ 
+.mySlides {
+    display: none;
+}
+
+ /*Next & previous buttons*/ 
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/*Position the "next button" to the right*/ 
+.next {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /*מספור בגלריה*/
+.numbertext {
+    color: #f2f2f2;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Caption text */
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+/*img.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}*/
+
+/*.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+
+.section-title {text-align:center; padding-top:60px;}
+
+/* כל כותרות הH2*/
+h2 {
+    font-size: 40px;
+    color: #5B5354;
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:30px;
+    padding:30px;
+    padding-top:50px;
+  
+}
+
+h3 {
+    text-align: center;
+    color: #5B5354;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+p {
+    line-height: 150%;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    margin-right: 10px;
+    text-align: center;
+    color: #5B5354;
+    font-size:30px;
+}
+
+
+
+/*סידור רשימה*/
+#nav2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav2 li a {
+    display: inline-block;
+    float: left;
+    width: 120px;
+}
+/*עיצוב רשימה*/
+#nav2 ul li a {
+    display: block;
+    background-color: #E1EBE1;
+    color: #5B5354;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    width: 256px;
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-size: auto;
+}
+
+/*באינטרקצית עכבר-עיצוב תת תפריט*/
+#nav2 ul li a:hover {
+    background-color: #BDC7B9;
+}
+
+    /*באינטרקצית עכבר-עיצוב תת תפריט*/
+    #nav2 ul li a:focus {
+        background-color: #BDC7B9;
+    }
+
+#nav2 ul li a:active {
+    background-color: #A8B4A2;
+}
+
+/*תזוזות אינטרקצית עכבר*/
+#nav2 ul li ul {
+    display: none;
+    position: absolute;
+}
+
+#nav2 ul li:hover ul {
+    display: inline-block;
+    width: 150px;
+    margin-right: -120px;
+    margin-top: 34px;
+}
+
+
+/*טופס*/
+#contactForm {
+    padding-bottom: 50px;
+}
+
+/*טופס*/
+.dynamicFormObjectTitle {
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+/*טופס*/
+.dynamicFormObjectFields row{margin-bottom:20px;}
+
+/*טופס*/
+.top-form {
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+   color: #5B5354;
+}
+
+/*טופס*/
+.scn-reader-only {
+    font-size: 25px;
+    color: #5B5354;
+}
+
+/*כפתור שלח בטופס*/
+.form-submit {
+    float:right;
+    font-weight:600;
+    margin-right: -200px;
+    font-size: 22px;
+    color: #5B5354;
+}
+
+/*טופס*/
+.normal-form {
+    margin-bottom: 20px;
+
+}
+
+
+footer {
+    width: 1280px;
+    margin: auto
+}
+
+/*תפריט פוטר*/
+#container2 {
+    height: 30px;
+    margin-left: 10px;
+    width: 100%;
+}
+
