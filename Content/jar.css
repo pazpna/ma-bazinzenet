@@ -217,7 +217,7 @@ img {
 
 /*תמונה ראשית*/
 .image-section-data {
-    background-image: url('photos/center-homepage2.jpg');
+    background-image: url('../photos/center-homepage2.jpg');
     padding-bottom: 50%;
     background-position: center;
     background-size: cover;
