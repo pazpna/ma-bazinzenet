@@ -1,0 +1,32 @@
+﻿
+
+
+/*קישורים*/
+.txt {
+    font-size: 25px;
+    font-family: 'Comix No2 CLM';
+    margin-right: 150px;
+
+}
+
+h3 {
+    font-size: 30px;
+    text-align: right;
+    margin-right: 130px;
+}
+
+/*כל האתר*/
+.site {
+    padding-top: 15px;
+    margin-bottom: 40px
+}
+
+/*תפריט*/
+.hedear-nav {
+    width: calc(100% - 150px);
+    float: right;
+    margin-top: 30px
+
+}
+
+

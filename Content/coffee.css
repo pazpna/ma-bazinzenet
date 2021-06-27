@@ -1,0 +1,94 @@
+﻿
+/*רקע הHEADER*/
+.pesto-header {
+    background-color: #E1EBE1;
+}
+
+/*גודל התפריט*/
+.hedear-nav {
+    width: calc(100% - 150px);
+    float: right;
+    margin-top: 30px;
+    padding-bottom:10px;
+}
+
+/*נגישות*/
+.skip-to-content-link {
+    background: #E1EBE1;
+    height: 30px;
+    left: 50%;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+    margin-top: -12px;
+}
+
+/*נגישות*/
+    .skip-to-content-link:focus {
+        transform: translateY(0%);
+    }
+
+    /*כותרת ראשית*/
+h1 {
+    font-size: 60px;
+}
+
+/*תמונת נר על הרקע*/
+.pesto-header-img {
+    text-align: center;
+    float: left;
+    margin-left: 120px;
+    margin-top: -35px;
+    padding-bottom: 60px;
+    width: 400px;
+    height: 400px;
+}
+
+/*כותרת ראשית*/
+.pesto-header-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 130px;
+    margin-top: -20px;
+}
+
+
+
+/*כותרות מצרכים*/
+.grid-box-subtitle {
+    text-align: center;
+    margin-right: -20px;
+    font-size: 25px;
+    color: #5B5354;
+}
+
+/*גריד מצרכים*/
+.grid-boxes row {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+/*גריד מצרכים*/
+.grid-box {
+    width: 25%;
+}
+
+/*גריד שלבים*/
+.grid-row-text {
+    float: right;
+}
+
+/*שלבי הכנה*/
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    margin: 100px;
+}
+
+
+/*כל שלב בנפרד*/
+.wr {
+    text-align: right;
+}
